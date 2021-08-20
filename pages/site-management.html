@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--===== Bootstrap File =====-->
+   <link rel="stylesheet" href="./../plugins/bootstrap/bootstrap.min.css">
+   <!--===== FontAwesome File =====-->
+   <link rel="stylesheet" href="./../plugins/fontawesome/all.css">
+   <!--=====DataTables File=====-->
+   <link rel="stylesheet" href="./../plugins/datatables/css/jquery.dataTables.min.css">
+   <!--===== Dragable links =====-->
+   <link rel="stylesheet" href="./../plugins/draggable/gridstack/dist/gridstack.min.css">
+   
+   <!--=====Fonts File=====-->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+   <!--========= Custom CSS File ========-->
+   <link rel="stylesheet" href="./../assets/css/custom-styl.css">
+   <title>Golden Entertainment</title>
+</head>
+   <body>
+    <div class="overlay"></div>
+      <div class="container-fluid ContainerMain">
+         <div class="page-wrapper">
+           <!-- Overlay -->
+        
+   <!-- ======Start of Sidebar======= -->
+   <div class="SidebarWidth SideberRemove scrollbar"> 
+      <div class="sidebar">
+         <div class="brand">
+            <a href="./../index.html">
+               <img class="brand-logo" src="./../assets/images/BrandLogo.png" data-darklogo="./../assets/images/BrandLogo.png" data-lightlogo="./../assets/images/light-logo.png" alt="Logo">
+            </a>
+            <i class="fas fa-bars ToggleBtn"></i>
+            <img class="toggle-btn" src="./../assets/images/Toggle.svg" alt="Toggle icon">
+         </div>
+         <div class="sidebar_menu">
+            <div class="dashboard">
+               <i class="fal fa-home-lg-alt"></i>
+               <p>Dashboard</p>
+               <span> 2 </span>
+            </div>
+            <div class="FloorView">
+               <i class="far fa-search"></i>
+               <p>Floor View</p>
+            </div>
+         </div>
+         <div class="accordionMain">
+            <div class="accordion" id="accordionExample">
+               <div class="accordion-item">
+                  <div class="accordion-header" id="headingOne">
+                     <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                        >
+                     <span class="accordionButton">Promotion Management</span>
+                     <span class="dots">
+                     <i class="fas fa-ellipsis-h"></i>
+                     </span>
+                     </button>
+                  </div>
+                  <div
+                     id="collapseOne"
+                     class="accordion-collapse collapse show"
+                     aria-labelledby="headingOne"
+                     >
+                     <div class="accordion-body">
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-envelope"></i>
+                           <p>Sub Menu Item 1</p>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-comment-alt"></i>
+                           <p>Sub Menu Item 2</p>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-check-square"></i>
+                           <p>Sub Menu Item 3</p>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-calendar-minus"></i>
+                           <p>Sub Menu Item 4</p>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                     <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="true"
+                        aria-controls="collapseTwo"
+                        >
+                     <span class="accordionButton">Slot Management</span>
+                     <span class="dots">
+                     <i class="fas fa-ellipsis-h"></i>
+                     </span>
+                     </button>
+                  </h2>
+                  <div
+                     id="collapseTwo"
+                     class="accordion-collapse collapse show"
+                     aria-labelledby="headingTwo"
+                     >
+                     <div class="accordion-body">
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-envelope"></i>
+                           <p>Sub Menu Item 1</p>
+                           <span>1</span>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-comment-alt"></i>
+                           <p>Sub Menu Item 2</p>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-check-square"></i>
+                           <p>Sub Menu Item 3</p>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-calendar-minus"></i>
+                           <p>Sub Menu Item 4</p>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                     <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="true"
+                        aria-controls="collapseThree"
+                        >
+                     <span class="accordionButton">Player Management</span>
+                     <span class="dots">
+                     <i class="fas fa-ellipsis-h"></i>
+                     </span>
+                     </button>
+                  </h2>
+                  <div
+                     id="collapseThree"
+                     class="accordion-collapse collapse show"
+                     aria-labelledby="headingThree"
+                     >
+                     <div class="accordion-body">
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-envelope"></i>
+                           <p>Sub Menu Item 1</p>
+                           <span>1</span>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-comment-alt"></i>
+                           <p>Sub Menu Item 2</p>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-check-square"></i>
+                           <p>Sub Menu Item 3</p>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-calendar-minus"></i>
+                           <p>Sub Menu Item 4</p>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                     <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour"
+                        aria-expanded="true"
+                        aria-controls="collapseFour"
+                        >
+                     <span class="accordionButton">Site Management</span>
+                     <span class="dots">
+                     <i class="fas fa-ellipsis-h"></i>
+                     </span>
+                     </button>
+                  </h2>
+                  <div
+                     id="collapseFour"
+                     class="accordion-collapse collapse show"
+                     aria-labelledby="headingFour"
+                     data-bs-parent="#accordionExample"
+                     >
+                     <div class="accordion-body">
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-envelope"></i>
+                           <p>Sub Menu Item 1</p>
+                           <span>1</span>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-comment-alt"></i>
+                           <p>Sub Menu Item 2</p>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-check-square"></i>
+                           <p>Sub Menu Item 3</p>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-calendar-minus"></i>
+                           <p>Sub Menu Item 4</p>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- ======Start of Sidebar======= -->
+            
+   <!-- ======= Start of top Navbar ===== -->
+   <div class="NavbarWidth">
+      <div class="navbarMain">
+         <nav class="navbar navbar-expand-lg navbar-light navbarBg">
+            <div class="container-fluid">
+               <div class="navIcon">
+                  <ul>
+                     <li>
+                        <a href="#">
+                        <i class="far fa-check-square"></i></a>
+                     </li>
+                     <li><a href="#"><i class="far fa-comment-alt"></i></a></li>
+                     <li><a href="#"><i class="far fa-envelope"></i></a></li>
+                     <li><a href="#"><i class="far fa-calendar-minus"></i></a></li>
+                     <li><a href="#"><i class="active far fa-star"></i></a></li>
+                     <li class="toggle-container">
+                        <!-- Light and Dark Mode toggle -->
+                        <!-- <div id="darkmode-toggle">
+                          <span><img src="./../assets/images/light-mode-icon.svg" alt="icon"></span>
+                          <span class="circle"></span>
+                          <span class="moon-icon"><i class="far fa-moon"></i></span>
+                        </div> -->
+                        <!-- End Light and Dark Mode toggle -->
+                     </li>
+                  </ul>
+               </div>
+               <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                  >
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                           ><img class="flag" src="./../assets/images/united-states.png" alt="flag image">
+                        <span>English</span>
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                           >
+                           <li>
+                              <a class="dropdown-item" href="#"
+                                 >Action</a
+                                 >
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="#"
+                                 >Another action</a
+                                 >
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="#"
+                                 >Something else here</a
+                                 >
+                           </li>
+                        </ul>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                     </li>
+                     <li class="nav-item icons">
+                        <a class="nav-link" href="#"><i class="far fa-shopping-cart"></i><span class="avtarNotification">8</span></a>
+                     </li>
+                     <li class="nav-item icons">
+                        <a class="nav-link" href="#"><i class="far fa-bell"></i><span class="avtarNotification bell-notification">4</span></a>
+                     </li>
+                     <li class="nav-item formated">
+                        <a
+                           class="nav-link active"
+                           aria-current="page"
+                           href="#"
+                           >
+                           <ul>
+                              <li> John Doe </li>
+                              <li> Admin </li>
+                           </ul>
+                           <img class="avtarWrap" src="./../assets/images/Avtar.jpg" alt="icon">
+                           <span class="online"></span>
+                        </a>
+                     </li>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </div>
+      <!-- ======= End of top Navbar ===== -->
+
+   <!-- ======= Start of main content ==== -->
+   <main>
+
+      <!-- Floorview Contnet -->
+      <section id="gridly-container" class="scrollbar">
+         <div class="grid-stack">
+            <!-- item 1 -->
+            <div class="grid-stack-item" gs-w="6" gs-h="3">
+              <div class="grid-stack-item-content">
+                 <div class="table-title">
+                    <p>Draggable Widget</p>
+                    <button type="button"><i class="far fa-ellipsis-v"></i></button>
+                  </div>
+                  <div class="table-container scrollbar">
+                     <table class="table table-striped" id="widget-1-table">
+
+                        <thead>
+                           <tr>
+                              <th>Header 1</th>
+                              <th>Header 2</th>
+                              <th>Header 3</th>
+                              <th>Header 4</th>
+                           </tr>
+                        </thead>
+   
+                        <tbody>
+                           <!-- table data row 1 -->
+                           <tr>
+                              <td>Data</td>
+                              <td>Data</td>
+                              <td>Data</td>
+                              <td>Data</td>
+                           </tr>
+                           <!-- table data row 2 -->
+                           <tr>
+                              <td>Data</td>
+                              <td>Data</td>
+                              <td>Data</td>
+                              <td>Data</td>
+                           </tr>
+                           <!-- table data row 3 -->
+                           <tr>
+                              <td>Data</td>
+                              <td>Data</td>
+                              <td>Data</td>
+                              <td>Data</td>
+                           </tr>
+                           <!-- table data row 4 -->
+                           <tr>
+                              <td>Data</td>
+                              <td>Data</td>
+                              <td>Data</td>
+                              <td>Data</td>
+                           </tr>
+                           <!-- table data row 5 -->
+                           <tr>
+                              <td>Data</td>
+                              <td>Data</td>
+                              <td>Data</td>
+                              <td>Data</td>
+                           </tr>
+                           <!-- table data row 6 -->
+                           <tr>
+                              <td>Data</td>
+                              <td>Data</td>
+                              <td>Data</td>
+                              <td>Data</td>
+                           </tr>
+                           <!-- table data row 7 -->
+                           <tr>
+                              <td>Data</td>
+                              <td>Data</td>
+                              <td>Data</td>
+                              <td>Data</td>
+                           </tr>
+                           <!-- table data row 8 -->
+                           <tr>
+                              <td>Data</td>
+                              <td>Data</td>
+                              <td>Data</td>
+                              <td>Data</td>
+                           </tr>
+                           <!-- table data row 9 -->
+                           <tr>
+                              <td>Data</td>
+                              <td>Data</td>
+                              <td>Data</td>
+                              <td>Data</td>
+                           </tr>
+                        </tbody>
+   
+                     </table>
+                  </div>
+              </div>
+            </div>
+            <!-- item 2 -->
+            <div class="grid-stack-item" gs-w="6" gs-h="3">
+              <div class="grid-stack-item-content">
+               <div class="chart-title">
+                  <p>Draggable Widget</p>
+                  <button type="button"><i class="far fa-ellipsis-v"></i></button>
+               </div>
+               <div class="chart pie-chart-container">
+                  <canvas id="pie_chart" width="530" height="200" role="img"></canvas>
+               </div>
+              </div>
+            </div>
+            <!-- item 3 -->
+            <div class="grid-stack-item" gs-w="12" gs-h="3">
+               <div class="grid-stack-item-content">
+                  <div class="chart">
+                     <div class="chart-title">
+                        <p>Draggable Widget</p>
+                        <button type="button"><i class="far fa-ellipsis-v"></i></button>
+                     </div>
+                     <canvas id="line_chart" height="56" role="img"></canvas>
+                 </div>
+               </div>
+             </div>
+             <!-- item 4 -->
+             <div class="grid-stack-item" gs-w="6" gs-h="3">
+               <div class="grid-stack-item-content">
+                  <div class="table-title">
+                     <p>Draggable Widget</p>
+                     <button type="button"><i class="far fa-ellipsis-v"></i></button>
+                   </div>
+                   <div class="table-container scrollbar">
+                      <table class="table table-striped" id="widget-2-table">
+ 
+                         <thead>
+                            <tr>
+                               <th>Header 1</th>
+                               <th>Header 2</th>
+                            </tr>
+                         </thead>
+    
+                         <tbody>
+                            <!-- table data row 1 -->
+                            <tr>
+                               <td>Data</td>
+                               <td>Data</td>
+                            </tr>
+                            <!-- table data row 2 -->
+                            <tr>
+                               <td>Data</td>
+                               <td>Data</td>
+                            </tr>
+                            <!-- table data row 3 -->
+                            <tr>
+                               <td>Data</td>
+                               <td>Data</td>
+                            </tr>
+                            <!-- table data row 4 -->
+                            <tr>
+                               <td>Data</td>
+                               <td>Data</td>
+                            </tr>
+                            <!-- table data row 5 -->
+                            <tr>
+                               <td>Data</td>
+                               <td>Data</td>
+                            </tr>
+                            <!-- table data row 6 -->
+                            <tr>
+                              <td>Data</td>
+                              <td>Data</td>
+                           </tr>
+                           <!-- table data row 7 -->
+                           <tr>
+                              <td>Data</td>
+                              <td>Data</td>
+                           </tr>
+                           <!-- table data row 8 -->
+                           <tr>
+                              <td>Data</td>
+                              <td>Data</td>
+                           </tr>
+                           <!-- table data row 9 -->
+                           <tr>
+                              <td>Data</td>
+                              <td>Data</td>
+                           </tr>
+                         </tbody>
+    
+                      </table>
+                   </div>
+               </div>
+             </div>
+             <!-- item 5 -->
+             <div class="grid-stack-item" gs-w="6" gs-h="3">
+               <div class="grid-stack-item-content">Draggable Widget</div>
+             </div>
+          </div>
+      </section>
+      <!-- End Floorview Contnet -->
+
+   </main>
+   <!-- ======= End of main content ==== -->
+
+   <!--===== Start of Footer ====-->
+   <div class="footer">
+      <div class="row">
+         <div class="col-lg-6 col-md-6">
+            <p> COPYRIGHT &#169; <span id="footer_year">2020</span> <a href="#">Golden Gaming</a> </p>
+         </div>
+         <div class="col-lg-6 col-md-6 made-by">
+            <p> Hand-crafted & Made with  <i class="far fa-heart"></i> </p>
+         </div>
+      </div>
+   </div>
+   <!--===== End of Footer ====-->
+           </div>
+         </div>
+      </div>
+      <!-- jQuery CDN link -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <!-- fontawesome js -->
+      <script src="./../plugins/fontawesome/fontawesome.js"></script>
+      <!-- boostrap js -->
+      <script src="./../plugins/bootstrap/bootstrap.bundle.js"></script>
+      <!-- DataTables File -->
+      <script src="./../plugins/datatables/js/jquery.dataTables.min.js"></script>
+      <!-- Charts CDN link -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.1.1/chart.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+      <!-- Draggable JS File -->
+      <script src="./../plugins/draggable/gridstack/dist/gridstack-h5.js"></script>
+      <!-- custome JS File -->
+      <script src="./../assets/js/app.js"></script>
+      <script src="./js/site-management.js"></script>
+      <!-- <script src="./../assets/js/lightmode.js"></script> -->
+   </body>
+</html>

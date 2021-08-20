@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--===== Bootstrap File =====-->
+   <link rel="stylesheet" href="./../plugins/bootstrap/bootstrap.min.css">
+   <!--===== FontAwesome File =====-->
+   <link rel="stylesheet" href="./../plugins/fontawesome/all.css">
+   <!--=====DataTables File=====-->
+   <link rel="stylesheet" href="./../plugins/datatables/css/jquery.dataTables.min.css">
+   <!-- <link rel="stylesheet" href="./plugins/datatables/css/dataTables.bootstrap.min.css"> -->
+   <!--=====Fonts File=====-->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+   <!--========= Custom CSS File ========-->
+   <link rel="stylesheet" href="./../assets/css/custom-styl.css">
+   <title>Golden Entertainment</title>
+</head>
+   <body>
+    <div class="overlay"></div>
+      <div class="container-fluid ContainerMain">
+         <div class="page-wrapper">
+           <!-- Overlay -->
+        
+   <!-- ======Start of Sidebar======= -->
+   <div class="SidebarWidth SideberRemove scrollbar"> 
+      <div class="sidebar">
+         <div class="brand">
+            <a href="./../index.html">
+              <img class="brand-logo" src="./../assets/images/BrandLogo.png" data-darklogo="./../assets/images/BrandLogo.png" data-lightlogo="./../assets/images/light-logo.png" alt="Logo">
+            </a>
+            <i class="fas fa-bars ToggleBtn"></i>
+            <img class="toggle-btn" src="./../assets/images/Toggle.svg" alt="Toggle icon">
+         </div>
+         <div class="sidebar_menu">
+            <div class="dashboard">
+               <i class="fal fa-home-lg-alt"></i>
+               <p>Dashboard</p>
+               <span> 2 </span>
+            </div>
+            <div class="FloorView">
+               <i class="far fa-search"></i>
+               <p>Floor View</p>
+            </div>
+         </div>
+         <div class="accordionMain">
+            <div class="accordion" id="accordionExample">
+               <div class="accordion-item">
+                  <div class="accordion-header" id="headingOne">
+                     <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                        >
+                     <span class="accordionButton">Promotion Management</span>
+                     <span class="dots">
+                     <i class="fas fa-ellipsis-h"></i>
+                     </span>
+                     </button>
+                  </div>
+                  <div
+                     id="collapseOne"
+                     class="accordion-collapse collapse show"
+                     aria-labelledby="headingOne"
+                     >
+                     <div class="accordion-body">
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-envelope"></i>
+                           <p>Sub Menu Item 1</p>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-comment-alt"></i>
+                           <p>Sub Menu Item 2</p>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-check-square"></i>
+                           <p>Sub Menu Item 3</p>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-calendar-minus"></i>
+                           <p>Sub Menu Item 4</p>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                     <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="true"
+                        aria-controls="collapseTwo"
+                        >
+                     <span class="accordionButton">Slot Management</span>
+                     <span class="dots">
+                     <i class="fas fa-ellipsis-h"></i>
+                     </span>
+                     </button>
+                  </h2>
+                  <div
+                     id="collapseTwo"
+                     class="accordion-collapse collapse show"
+                     aria-labelledby="headingTwo"
+                     >
+                     <div class="accordion-body">
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-envelope"></i>
+                           <p>Sub Menu Item 1</p>
+                           <span>1</span>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-comment-alt"></i>
+                           <p>Sub Menu Item 2</p>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-check-square"></i>
+                           <p>Sub Menu Item 3</p>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-calendar-minus"></i>
+                           <p>Sub Menu Item 4</p>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                     <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="true"
+                        aria-controls="collapseThree"
+                        >
+                     <span class="accordionButton">Player Management</span>
+                     <span class="dots">
+                     <i class="fas fa-ellipsis-h"></i>
+                     </span>
+                     </button>
+                  </h2>
+                  <div
+                     id="collapseThree"
+                     class="accordion-collapse collapse show"
+                     aria-labelledby="headingThree"
+                     >
+                     <div class="accordion-body">
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-envelope"></i>
+                           <p>Sub Menu Item 1</p>
+                           <span>1</span>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-comment-alt"></i>
+                           <p>Sub Menu Item 2</p>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-check-square"></i>
+                           <p>Sub Menu Item 3</p>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-calendar-minus"></i>
+                           <p>Sub Menu Item 4</p>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                     <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour"
+                        aria-expanded="true"
+                        aria-controls="collapseFour"
+                        >
+                     <span class="accordionButton">Site Management</span>
+                     <span class="dots">
+                     <i class="fas fa-ellipsis-h"></i>
+                     </span>
+                     </button>
+                  </h2>
+                  <div
+                     id="collapseFour"
+                     class="accordion-collapse collapse show"
+                     aria-labelledby="headingFour"
+                     data-bs-parent="#accordionExample"
+                     >
+                     <div class="accordion-body">
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-envelope"></i>
+                           <p>Sub Menu Item 1</p>
+                           <span>1</span>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-comment-alt"></i>
+                           <p>Sub Menu Item 2</p>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-check-square"></i>
+                           <p>Sub Menu Item 3</p>
+                        </a>
+                        <a href="#" class="SubMenu">
+                           <i class="far fa-calendar-minus"></i>
+                           <p>Sub Menu Item 4</p>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- ======Start of Sidebar======= -->
+            
+   <!-- ======= Start of top Navbar ===== -->
+   <div class="NavbarWidth">
+      <div class="navbarMain">
+         <nav class="navbar navbar-expand-lg navbar-light navbarBg">
+            <div class="container-fluid">
+               <div class="navIcon">
+                  <ul>
+                     <li>
+                        <a href="#">
+                        <i class="far fa-check-square"></i></a>
+                     </li>
+                     <li><a href="#"><i class="far fa-comment-alt"></i></a></li>
+                     <li><a href="#"><i class="far fa-envelope"></i></a></li>
+                     <li><a href="#"><i class="far fa-calendar-minus"></i></a></li>
+                     <li><a href="#"><i class="active far fa-star"></i></a></li>
+                     <li class="toggle-container">
+                      <!-- Light and Dark Mode toggle -->
+                      <div id="darkmode-toggle">
+                        <span><img src="./../assets/images/light-mode-icon.svg" alt="icon"></span>
+                        <span class="circle"></span>
+                        <span class="moon-icon"><i class="far fa-moon"></i></span>
+                      </div>
+                      <!-- End Light and Dark Mode toggle -->
+                     </li>
+                  </ul>
+               </div>
+               <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                  >
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                           ><img class="flag" src="./../assets/images/united-states.png" alt="flag image">
+                        <span>English</span>
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                           >
+                           <li>
+                              <a class="dropdown-item" href="#"
+                                 >Action</a
+                                 >
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="#"
+                                 >Another action</a
+                                 >
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="#"
+                                 >Something else here</a
+                                 >
+                           </li>
+                        </ul>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                     </li>
+                     <li class="nav-item icons">
+                        <a class="nav-link" href="#"><i class="far fa-shopping-cart"></i><span class="avtarNotification">8</span></a>
+                     </li>
+                     <li class="nav-item icons">
+                        <a class="nav-link" href="#"><i class="far fa-bell"></i><span class="avtarNotification bell-notification">4</span></a>
+                     </li>
+                     <li class="nav-item formated">
+                        <a
+                           class="nav-link active"
+                           aria-current="page"
+                           href="#"
+                           >
+                           <ul>
+                              <li> John Doe </li>
+                              <li> Admin </li>
+                           </ul>
+                           <img class="avtarWrap" src="./../assets/images/Avtar.jpg" alt="icon">
+                           <span class="online"></span>
+                        </a>
+                     </li>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </div>
+      <!-- ======= End of top Navbar ===== -->
+
+   <!-- ======= Start of main content ==== -->
+   <main>
+      <!-- Page title -->
+      <div class="page-title d-flex justify-content-between align-items center">
+        <ul class="title-list d-flex align-items-center">
+           <li class="border-right"><h4>Floorview</h4></li>
+           <li><a href="./../index.html"><i class="fal fa-home-lg-alt"></i></a></li>
+           <li class="icon"><i class="fa fa-chevron-right"></i></li>
+           <li>Floorview</li>
+        </ul>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-sm">
+            <i class="fas fa-th-large"></i>
+         </button>
+           <button type="button" class="btn btn-sm" onclick="window.location='./../index.html';">
+              <i class="fal fa-bars"></i>
+           </button>
+        </div>
+     </div>
+      <!-- End Page title -->
+
+      <!-- Floorview Contnet -->
+      <section id="floorview-content" class="cards-page-container">
+         <div class="row view-header">
+            <div class="col-lg-4">
+               <form action="#" class="form-inline">
+                  <div class="form-group">
+                     <div class="select">
+                        <select>
+                           <option>Select Site</option>
+                           <option>Select Site</option>
+                           <option>Select Site</option>
+                         </select>
+                     </div>
+                      <div class="form-group has-search">
+                        <span class="fa fa-search form-control-feedback"></span>
+                        <input type="text" class="form-control" placeholder="Search">
+                      </div>
+                  </div>
+               </form>
+            </div>
+            <div class="col-lg-8"></div>
+         </div>
+         <!-- players Overview -->
+         <div id="cards-container" class="scrollbar">
+
+           <!-- Card 1 -->
+           <div class="card">
+              <div class="card-header d-flex justify-content-between align-items-center">
+                <div class="game-id d-flex align-items-center">
+                  <div class="power-container">
+                    <i class="fas fa-power-off"></i>
+                  </div>
+                  <p class="game-name">Game #1</p>
+                </div>
+                <div class="game-img">
+                  <img class="img-fluid" src="./../assets/images/slot-lg-icon.png" alt="slot image">
+                </div>
+              </div>
+              <div class="card-line"></div>
+              <div class="card-number"><span>45</span></div>
+             <div class="card-body">
+               <div class="card-row d-flex justify-content-between">
+                 <p class="xs-semibold">Coin In</p>
+                 <div class="coins-box">
+                   <p class="xs-semibold">$20,000</p>
+                 </div>
+               </div>
+               <div class="card-row d-flex justify-content-between">
+                <p class="xs-semibold">Coin Out</p>
+                <div class="coins-box">
+                  <p class="xs-semibold">$20,000</p>
+                </div>
+              </div>
+              <div class="card-row d-flex justify-content-between">
+                <p class="xs-semibold">Bills In</p>
+                <div class="coins-box">
+                  <p class="xs-semibold">$20,000</p>
+                </div>
+              </div>
+              <div class="card-row d-flex justify-content-between">
+                <p class="xs-semibold">Average Bet</p>
+                <div class="coins-box">
+                  <p class="xs-semibold">$20,000</p>
+                </div>
+              </div>
+              <div class="card-row d-flex justify-content-between">
+                <p class="xs-semibold">Session Time</p>
+                <div class="coins-box">
+                  <p class="xs-semibold">$20,000</p>
+                </div>
+              </div>
+             </div>
+             <div class="card-line"></div>
+             <div class="card-footer d-flex justify-content-between align-items-center">
+               <p class="user-name">Player Name</p>
+               <img src="./../assets/images/trueRewards.png" alt="TRue Rewards">
+             </div>
+           </div>
+
+           <!-- Card 2 -->
+           <div class="card">
+              <div class="card-header d-flex justify-content-between align-items-center">
+                <div class="game-id d-flex align-items-center">
+                  <div class="power-container">
+                    <i class="fas fa-power-off"></i>
+                  </div>
+                  <p class="game-name">Game #2</p>
+                </div>
+                <div class="game-img">
+                  <img class="img-fluid" src="./../assets/images/card-lg-icon.png" alt="cards icon">
+                </div>
+              </div>
+              <div class="card-line"></div>
+              <div class="card-number"><span>45</span></div>
+             <div class="card-body">
+               <div class="card-row d-flex justify-content-between">
+                 <p class="xs-semibold">Coin In</p>
+                 <div class="coins-box">
+                   <p class="xs-semibold">$20,000</p>
+                 </div>
+               </div>
+               <div class="card-row d-flex justify-content-between">
+                <p class="xs-semibold">Coin Out</p>
+                <div class="coins-box">
+                  <p class="xs-semibold">$20,000</p>
+                </div>
+              </div>
+              <div class="card-row d-flex justify-content-between">
+                <p class="xs-semibold">Bills In</p>
+                <div class="coins-box">
+                  <p class="xs-semibold">$20,000</p>
+                </div>
+              </div>
+              <div class="card-row d-flex justify-content-between">
+                <p class="xs-semibold">Average Bet</p>
+                <div class="coins-box">
+                  <p class="xs-semibold">$20,000</p>
+                </div>
+              </div>
+              <div class="card-row d-flex justify-content-between">
+                <p class="xs-semibold">Session Time</p>
+                <div class="coins-box">
+                  <p class="xs-semibold">$20,000</p>
+                </div>
+              </div>
+             </div>
+             <div class="card-line"></div>
+             <div class="card-footer d-flex justify-content-center align-items-center">
+               <p class="user-name">Player Name</p>
+             </div>
+           </div>
+
+           <!-- Card 3 -->
+           <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+              <div class="game-id d-flex align-items-center">
+                <div class="power-container offline">
+                  <i class="fas fa-power-off"></i>
+                </div>
+                <p class="game-name">Game #3</p>
+              </div>
+              <div class="game-img">
+                <img class="img-fluid" src="./../assets/images/slot-lg-icon.png" alt="slot image">
+              </div>
+            </div>
+            <div class="card-line"></div>
+            <div class="card-number"><span>45</span></div>
+           <div class="card-body">
+             <div class="card-row d-flex justify-content-between">
+               <p class="xs-semibold">Coin In</p>
+               <div class="coins-box">
+                 <p class="xs-semibold">$20,000</p>
+               </div>
+             </div>
+             <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Coin Out</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+            <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Bills In</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+            <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Average Bet</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+            <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Session Time</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+           </div>
+           <div class="card-line"></div>
+           <div class="card-footer d-flex justify-content-center align-items-center">
+             <p class="user-name">Offline</p>
+           </div>
+         </div>
+
+           
+         <!-- Card 4 -->
+         <div class="card">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <div class="game-id d-flex align-items-center">
+              <div class="power-container">
+                <i class="fas fa-power-off"></i>
+              </div>
+              <p class="game-name">Game #4</p>
+            </div>
+            <div class="game-img">
+              <img class="img-fluid" src="./../assets/images/slot-lg-icon.png" alt="slot image">
+            </div>
+          </div>
+          <div class="card-line"></div>
+          <div class="card-number"><span>45</span></div>
+         <div class="card-body">
+           <div class="card-row d-flex justify-content-between">
+             <p class="xs-semibold">Coin In</p>
+             <div class="coins-box">
+               <p class="xs-semibold">$20,000</p>
+             </div>
+           </div>
+           <div class="card-row d-flex justify-content-between">
+            <p class="xs-semibold">Coin Out</p>
+            <div class="coins-box">
+              <p class="xs-semibold">$20,000</p>
+            </div>
+          </div>
+          <div class="card-row d-flex justify-content-between">
+            <p class="xs-semibold">Bills In</p>
+            <div class="coins-box">
+              <p class="xs-semibold">$20,000</p>
+            </div>
+          </div>
+          <div class="card-row d-flex justify-content-between">
+            <p class="xs-semibold">Average Bet</p>
+            <div class="coins-box">
+              <p class="xs-semibold">$20,000</p>
+            </div>
+          </div>
+          <div class="card-row d-flex justify-content-between">
+            <p class="xs-semibold">Session Time</p>
+            <div class="coins-box">
+              <p class="xs-semibold">$20,000</p>
+            </div>
+          </div>
+         </div>
+         <div class="card-line"></div>
+         <div class="card-footer d-flex justify-content-between align-items-center">
+          <p class="user-name">Player Name</p>
+          <img src="./../assets/images/trueRewards.png" alt="TRue Rewards">
+        </div>
+       </div>
+
+       <!-- Card 5 -->
+       <div class="card">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <div class="game-id d-flex align-items-center">
+              <div class="power-container">
+                <i class="fas fa-power-off"></i>
+              </div>
+              <p class="game-name">Game #5</p>
+            </div>
+            <div class="game-img">
+              <img class="img-fluid" src="./../assets/images/card-lg-icon.png" alt="cards icon">
+            </div>
+          </div>
+          <div class="card-line"></div>
+          <div class="card-number"><span>45</span></div>
+         <div class="card-body">
+           <div class="card-row d-flex justify-content-between">
+             <p class="xs-semibold">Coin In</p>
+             <div class="coins-box">
+               <p class="xs-semibold">$20,000</p>
+             </div>
+           </div>
+           <div class="card-row d-flex justify-content-between">
+            <p class="xs-semibold">Coin Out</p>
+            <div class="coins-box">
+              <p class="xs-semibold">$20,000</p>
+            </div>
+          </div>
+          <div class="card-row d-flex justify-content-between">
+            <p class="xs-semibold">Bills In</p>
+            <div class="coins-box">
+              <p class="xs-semibold">$20,000</p>
+            </div>
+          </div>
+          <div class="card-row d-flex justify-content-between">
+            <p class="xs-semibold">Average Bet</p>
+            <div class="coins-box">
+              <p class="xs-semibold">$20,000</p>
+            </div>
+          </div>
+          <div class="card-row d-flex justify-content-between">
+            <p class="xs-semibold">Session Time</p>
+            <div class="coins-box">
+              <p class="xs-semibold">$20,000</p>
+            </div>
+          </div>
+         </div>
+         <div class="card-line"></div>
+         <div class="card-footer d-flex justify-content-center align-items-center">
+           <p class="user-name">Player Name</p>
+         </div>
+       </div>
+
+       <!-- Card 6 -->
+       <div class="card">
+        <div class="card-header d-flex justify-content-between align-items-center">
+          <div class="game-id d-flex align-items-center">
+            <div class="power-container">
+              <i class="fas fa-power-off"></i>
+            </div>
+            <p class="game-name">Game #6</p>
+          </div>
+          <div class="game-img">
+            <img class="img-fluid" src="./../assets/images/slot-lg-icon.png" alt="slot image">
+          </div>
+        </div>
+        <div class="card-line"></div>
+        <div class="card-number"><span>45</span></div>
+       <div class="card-body">
+         <div class="card-row d-flex justify-content-between">
+           <p class="xs-semibold">Coin In</p>
+           <div class="coins-box">
+             <p class="xs-semibold">$20,000</p>
+           </div>
+         </div>
+         <div class="card-row d-flex justify-content-between">
+          <p class="xs-semibold">Coin Out</p>
+          <div class="coins-box">
+            <p class="xs-semibold">$20,000</p>
+          </div>
+        </div>
+        <div class="card-row d-flex justify-content-between">
+          <p class="xs-semibold">Bills In</p>
+          <div class="coins-box">
+            <p class="xs-semibold">$20,000</p>
+          </div>
+        </div>
+        <div class="card-row d-flex justify-content-between">
+          <p class="xs-semibold">Average Bet</p>
+          <div class="coins-box">
+            <p class="xs-semibold">$20,000</p>
+          </div>
+        </div>
+        <div class="card-row d-flex justify-content-between">
+          <p class="xs-semibold">Session Time</p>
+          <div class="coins-box">
+            <p class="xs-semibold">$20,000</p>
+          </div>
+        </div>
+       </div>
+       <div class="card-line"></div>
+       <div class="card-footer d-flex justify-content-center align-items-center">
+         <p class="user-name">Idle</p>
+       </div>
+     </div>
+           
+        <!-- Card 7 -->
+        <div class="card">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <div class="game-id d-flex align-items-center">
+              <div class="power-container">
+                <i class="fas fa-power-off"></i>
+              </div>
+              <p class="game-name">Game #7</p>
+            </div>
+            <div class="game-img">
+              <img class="img-fluid" src="./../assets/images/slot-lg-icon.png" alt="slot image">
+            </div>
+          </div>
+          <div class="card-line"></div>
+          <div class="card-number"><span>45</span></div>
+        <div class="card-body">
+          <div class="card-row d-flex justify-content-between">
+            <p class="xs-semibold">Coin In</p>
+            <div class="coins-boxn">
+              <p class="xs-semibold">$20,000</p>
+            </div>
+          </div>
+          <div class="card-row d-flex justify-content-between">
+            <p class="xs-semibold">Coin Out</p>
+            <div class="coins-box">
+              <p class="xs-semibold">$20,000</p>
+            </div>
+          </div>
+          <div class="card-row d-flex justify-content-between">
+            <p class="xs-semibold">Bills In</p>
+            <div class="coins-box">
+              <p class="xs-semibold">$20,000</p>
+            </div>
+          </div>
+          <div class="card-row d-flex justify-content-between">
+            <p class="xs-semibold">Average Bet</p>
+            <div class="coins-box">
+              <p class="xs-semibold">$20,000</p>
+            </div>
+          </div>
+          <div class="card-row d-flex justify-content-between">
+            <p class="xs-semibold">Session Time</p>
+            <div class="coins-box">
+              <p class="xs-semibold">$20,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-line"></div>
+        <div class="card-footer d-flex justify-content-center align-items-center">
+          <p class="user-name">Player Name</p>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="card">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <div class="game-id d-flex align-items-center">
+              <div class="power-container">
+                <i class="fas fa-power-off"></i>
+              </div>
+              <p class="game-name">Game #8</p>
+            </div>
+            <div class="game-img">
+              <img class="img-fluid" src="./../assets/images/card-lg-icon.png" alt="cards icon">
+            </div>
+          </div>
+          <div class="card-line"></div>
+          <div class="card-number"><span>45</span></div>
+        <div class="card-body">
+          <div class="card-row d-flex justify-content-between">
+            <p class="xs-semibold">Coin In</p>
+            <div class="coins-box">
+              <p class="xs-semibold">$20,000</p>
+            </div>
+          </div>
+          <div class="card-row d-flex justify-content-between">
+            <p class="xs-semibold">Coin Out</p>
+            <div class="coins-box">
+              <p class="xs-semibold">$20,000</p>
+            </div>
+          </div>
+          <div class="card-row d-flex justify-content-between">
+            <p class="xs-semibold">Bills In</p>
+            <div class="coins-box">
+              <p class="xs-semibold">$20,000</p>
+            </div>
+          </div>
+          <div class="card-row d-flex justify-content-between">
+            <p class="xs-semibold">Average Bet</p>
+            <div class="coins-box">
+              <p class="xs-semibold">$20,000</p>
+            </div>
+          </div>
+          <div class="card-row d-flex justify-content-between">
+            <p class="xs-semibold">Session Time</p>
+            <div class="coins-box">
+              <p class="xs-semibold">$20,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-line"></div>
+        <div class="card-footer d-flex justify-content-between align-items-center">
+          <p class="user-name">Player Name</p>
+          <img src="./../assets/images/trueRewards.png" alt="TRue Rewards">
+        </div>
+      </div>
+
+      <!-- Card 9 -->
+      <div class="card">
+        <div class="card-header d-flex justify-content-between align-items-center">
+          <div class="game-id d-flex align-items-center">
+            <div class="power-container">
+              <i class="fas fa-power-off"></i>
+            </div>
+            <p class="game-name">Game #9</p>
+          </div>
+          <div class="game-img">
+            <img class="img-fluid" src="./../assets/images/slot-lg-icon.png" alt="slot image">
+          </div>
+        </div>
+        <div class="card-line"></div>
+        <div class="card-number"><span>45</span></div>
+      <div class="card-body">
+        <div class="card-row d-flex justify-content-between">
+          <p class="xs-semibold">Coin In</p>
+          <div class="coins-box">
+            <p class="xs-semibold">$20,000</p>
+          </div>
+        </div>
+        <div class="card-row d-flex justify-content-between">
+          <p class="xs-semibold">Coin Out</p>
+          <div class="coins-box">
+            <p class="xs-semibold">$20,000</p>
+          </div>
+        </div>
+        <div class="card-row d-flex justify-content-between">
+          <p class="xs-semibold">Bills In</p>
+          <div class="coins-box">
+            <p class="xs-semibold">$20,000</p>
+          </div>
+        </div>
+        <div class="card-row d-flex justify-content-between">
+          <p class="xs-semibold">Average Bet</p>
+          <div class="coins-box">
+            <p class="xs-semibold">$20,000</p>
+          </div>
+        </div>
+        <div class="card-row d-flex justify-content-between">
+          <p class="xs-semibold">Session Time</p>
+          <div class="coins-box">
+            <p class="xs-semibold">$20,000</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-line"></div>
+      <div class="card-footer d-flex justify-content-center align-items-center">
+        <p class="user-name">Idle</p>
+      </div>
+    </div>
+           
+          <!-- Card 10 -->
+          <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+              <div class="game-id d-flex align-items-center">
+                <div class="power-container">
+                  <i class="fas fa-power-off"></i>
+                </div>
+                <p class="game-name">Game #10</p>
+              </div>
+              <div class="game-img">
+                <img class="img-fluid" src="./../assets/images/slot-lg-icon.png" alt="slot image">
+              </div>
+            </div>
+            <div class="card-line"></div>
+            <div class="card-number"><span>45</span></div>
+          <div class="card-body">
+            <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Coin In</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+            <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Coin Out</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+            <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Bills In</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+            <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Average Bet</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+            <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Session Time</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-line"></div>
+          <div class="card-footer d-flex justify-content-center align-items-center">
+            <p class="user-name">Player Name</p>
+          </div>
+          </div>
+
+          <!-- Card 11 -->
+          <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+              <div class="game-id d-flex align-items-center">
+                <div class="power-container">
+                  <i class="fas fa-power-off"></i>
+                </div>
+                <p class="game-name">Game #11</p>
+              </div>
+              <div class="game-img">
+                <img class="img-fluid" src="./../assets/images/card-lg-icon.png" alt="cards icon">
+              </div>
+            </div>
+            <div class="card-line"></div>
+            <div class="card-number"><span>45</span></div>
+          <div class="card-body">
+            <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Coin In</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+            <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Coin Out</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+            <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Bills In</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+            <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Average Bet</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+            <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Session Time</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-line"></div>
+          <div class="card-footer d-flex justify-content-center align-items-center">
+            <p class="user-name">Player Name</p>
+          </div>
+          </div>
+
+          <!-- Card 12 -->
+          <div class="card">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <div class="game-id d-flex align-items-center">
+              <div class="power-container">
+                <i class="fas fa-power-off"></i>
+              </div>
+              <p class="game-name">Game #12</p>
+            </div>
+            <div class="game-img">
+              <img class="img-fluid" src="./../assets/images/slot-lg-icon.png" alt="slot image">
+            </div>
+          </div>
+          <div class="card-line"></div>
+          <div class="card-number"><span>45</span></div>
+          <div class="card-body">
+          <div class="card-row d-flex justify-content-between">
+            <p class="xs-semibold">Coin In</p>
+            <div class="coins-box">
+              <p class="xs-semibold">$20,000</p>
+            </div>
+          </div>
+          <div class="card-row d-flex justify-content-between">
+            <p class="xs-semibold">Coin Out</p>
+            <div class="coins-box">
+              <p class="xs-semibold">$20,000</p>
+            </div>
+          </div>
+          <div class="card-row d-flex justify-content-between">
+            <p class="xs-semibold">Bills In</p>
+            <div class="coins-box">
+              <p class="xs-semibold">$20,000</p>
+            </div>
+          </div>
+          <div class="card-row d-flex justify-content-between">
+            <p class="xs-semibold">Average Bet</p>
+            <div class="coins-box">
+              <p class="xs-semibold">$20,000</p>
+            </div>
+          </div>
+          <div class="card-row d-flex justify-content-between">
+            <p class="xs-semibold">Session Time</p>
+            <div class="coins-box">
+              <p class="xs-semibold">$20,000</p>
+            </div>
+          </div>
+          </div>
+          <div class="card-line"></div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <p class="user-name">Player Name</p>
+            <img src="./../assets/images/trueRewards.png" alt="TRue Rewards">
+          </div>
+          </div>
+                    
+          <!-- Card 13 -->
+          <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+              <div class="game-id d-flex align-items-center">
+                <div class="power-container">
+                  <i class="fas fa-power-off"></i>
+                </div>
+                <p class="game-name">Game #13</p>
+              </div>
+              <div class="game-img">
+                <img class="img-fluid" src="./../assets/images/slot-lg-icon.png" alt="slot image">
+              </div>
+            </div>
+            <div class="card-line"></div>
+            <div class="card-number"><span>45</span></div>
+          <div class="card-body">
+            <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Coin In</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+            <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Coin Out</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+            <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Bills In</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+            <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Average Bet</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+            <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Session Time</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-line"></div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <p class="user-name">Player Name</p>
+            <img src="./../assets/images/trueRewards.png" alt="TRue Rewards">
+          </div>
+          </div>
+
+          <!-- Card 14 -->
+          <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+              <div class="game-id d-flex align-items-center">
+                <div class="power-container">
+                  <i class="fas fa-power-off"></i>
+                </div>
+                <p class="game-name">Game #14</p>
+              </div>
+              <div class="game-img">
+                <img class="img-fluid" src="./../assets/images/card-lg-icon.png" alt="cards icon">
+              </div>
+            </div>
+            <div class="card-line"></div>
+            <div class="card-number"><span>45</span></div>
+          <div class="card-body">
+            <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Coin In</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+            <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Coin Out</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+            <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Bills In</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+            <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Average Bet</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+            <div class="card-row d-flex justify-content-between">
+              <p class="xs-semibold">Session Time</p>
+              <div class="coins-box">
+                <p class="xs-semibold">$20,000</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-line"></div>
+          <div class="card-footer d-flex justify-content-center align-items-center">
+            <p class="user-name">Player Name</p>
+          </div>
+          </div>
+          <div class="mt-3 mb-1"></div>
+         </div>
+      </section>
+      <!-- End Floorview Contnet -->
+
+   </main>
+   <!-- ======= End of main content ==== -->
+   <!-- ======= Start Of cards result slide ==== -->
+   <div class="cards-result-slide hide">
+
+     <div class="slide-header d-flex justify-content-between align-items-center">
+       <p>Viewing Game #8</p>
+       <button type="button" class="trans-btn" id="close-slide"><i class="fal fa-times"></i></button>
+     </div>
+
+     <div class="slot-container">
+
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link slot-info-tab active">
+            <i class="fal fa-edit"></i>
+            <span>Slot Info</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link player-info-tab">
+            <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10.5572 12.8334C10.2896 12.8334 10.0219 12.6584 9.95498 12.4251L6.54235 3.61675L5.13715 7.23342C5.07024 7.40841 4.80258 7.58342 4.53492 7.58342H1.85835C1.45687 7.58342 1.18921 7.35008 1.18921 7.00008C1.18921 6.65008 1.45687 6.41675 1.85835 6.41675H4.06652L5.94012 1.57508C6.00704 1.34175 6.2747 1.16675 6.54235 1.16675C6.81001 1.16675 7.07767 1.34175 7.14458 1.57508L10.5572 10.3834L11.9624 6.76675C12.0293 6.53342 12.297 6.35841 12.5646 6.35841H15.2412C15.6427 6.35841 15.9104 6.59175 15.9104 6.94175C15.9104 7.29175 15.6427 7.52508 15.2412 7.52508H13.033L11.1594 12.3667C11.0925 12.6584 10.8249 12.8334 10.5572 12.8334Z" fill="black"/>
+              <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="1" y="1" width="15" height="12">
+              <path d="M10.5572 12.8334C10.2896 12.8334 10.0219 12.6584 9.95498 12.4251L6.54235 3.61675L5.13715 7.23342C5.07024 7.40841 4.80258 7.58342 4.53492 7.58342H1.85835C1.45687 7.58342 1.18921 7.35008 1.18921 7.00008C1.18921 6.65008 1.45687 6.41675 1.85835 6.41675H4.06652L5.94012 1.57508C6.00704 1.34175 6.2747 1.16675 6.54235 1.16675C6.81001 1.16675 7.07767 1.34175 7.14458 1.57508L10.5572 10.3834L11.9624 6.76675C12.0293 6.53342 12.297 6.35841 12.5646 6.35841H15.2412C15.6427 6.35841 15.9104 6.59175 15.9104 6.94175C15.9104 7.29175 15.6427 7.52508 15.2412 7.52508H13.033L11.1594 12.3667C11.0925 12.6584 10.8249 12.8334 10.5572 12.8334Z" fill="white"/>
+              </mask>
+              <g mask="url(#mask0)">
+              <rect x="0.52002" width="16.0594" height="14"/>
+              </g>
+              </svg>
+            <span>Player Info</span>
+          </a>
+        </li>
+      </ul>
+     </div>
+     <!-- Tabs Content -->
+     <div class="tab-content scrollbar">
+     <div id="slot-info-tab" class="tab-pane fade show active" role="tabpanel" aria-labelledby="slot-info-tab">
+     <div class="transaction-result">
+      <div class="result-header d-flex justify-content-between align-items-center">
+        <p>Game #8</p>
+        <img src="./../assets/images/slot-lg-icon.png" alt="slot icon">
+      </div>
+      <div class="card-line"></div>
+      <div class="row-wrapper">
+      <div class="result-row d-flex justify-content-between">
+        <div class="result-text-wrap">
+          <div class="d-flex justify-content-between">
+            <p class="sm-semibold">Coin In ................</p>
+            <p class="sm-semibold success-text">$20,000</p>
+          </div>
+          <div class="d-flex justify-content-between">
+            <p class="sm-semibold">Coin Out ............</p>
+            <p class="sm-semibold success-text">$20,000</p>
+          </div>
+       </div>
+       <div class="result-text-wrap">
+        <div class="d-flex justify-content-between">
+          <p class="sm-semibold">Coin In/Hr...........</p>
+          <p class="sm-semibold success-text">$20,000</p>
+        </div>
+        <div class="d-flex justify-content-between">
+          <p class="sm-semibold">Coin Out/Hr ......</p>
+          <p class="sm-semibold success-text">$20,000</p>
+        </div>
+       </div>
+      </div>
+      <div class="result-row d-flex justify-content-between">
+        <div class="result-text-wrap">
+          <div class="d-flex justify-content-between">
+            <p class="sm-semibold">Bills In ..................</p>
+            <p class="sm-semibold success-text">$20,000</p>
+          </div>
+          <div class="d-flex justify-content-between">
+            <p class="sm-semibold">Jackpot ..............</p>
+            <p class="sm-semibold success-text">$20,000</p>
+          </div>
+       </div>
+       <div class="result-text-wrap">
+        <div class="d-flex justify-content-between">
+          <p class="sm-semibold">Credits.................</p>
+          <p class="sm-semibold success-text">$20,000</p>
+        </div>
+        <div class="d-flex justify-content-between">
+          <p class="sm-semibold">Average Bet ......</p>
+          <p class="sm-semibold success-text">$20,000</p>
+        </div>
+       </div>
+      </div>
+      <div class="result-row d-flex justify-content-between">
+        <div class="result-text-wrap">
+          <div class="d-flex justify-content-between">
+            <p class="sm-semibold">Bills In ..................</p>
+            <p class="sm-semibold success-text">$20,000</p>
+          </div>
+          <div class="d-flex justify-content-between">
+            <p class="sm-semibold">Jackpot ...............</p>
+            <p class="sm-semibold success-text">$20,000</p>
+          </div>
+       </div>
+       <div class="result-text-wrap">
+         <div class="d-flex justify-content-between">
+           <p class="sm-semibold">Actual Win...........</p>
+           <p class="sm-semibold success-text">$20,000</p>
+         </div>
+         <div class="d-flex justify-content-between">
+          <p class="sm-semibold">Session Time.......</p>
+          <p class="sm-semibold success-text">$20,000</p>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="card-line"></div>
+    </div>
+    <div class="graph-container">
+      <h6>2.7K</h6>
+      <p class="regular-txt">Avg Sessions</p>
+      <p class="increase-txt"><span class="warning-text">+83 increase % &nbsp;</span> VS last 7 days</p>
+      <div class="row graph-row">
+        <div class="col-6 donut-chart-container">
+          <div id="donut-chart" ></div>
+        </div>
+        <div class="col-6 line-chart-container">
+          <canvas id="bar-chart" width="800" height="550"></canvas>
+        </div>
+      </div>
+      <div class="progress-container">
+        <div class="progress-wrapper d-flex justify-content-between">
+          <div class="progress-row">
+            <p>Goal: <span class="amount">$100000</span></p>
+            <div class="progress goal">
+              <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="progress-row">
+            <p>Players: <span class="amount">100K</span></p>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="progress-wrapper d-flex justify-content-between">
+          <div class="progress-row">
+            <p>Retention: <span class="amount">90%</span></p>
+            <div class="progress retention">
+              <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="progress-row">
+            <p>Duration: <span class="amount">1yr</span></p>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Player info tab -->
+  <div id="player-info-tab">
+    <p class="text-center mt-3">Empty player info</p>
+  </div>
+</div>
+  
+   </div>
+   <!--===== Start of Footer ====-->
+   <div class="footer">
+      <div class="row">
+         <div class="col-lg-6 col-md-6">
+            <p> COPYRIGHT &#169; <span id="footer_year">2020</span> <a href="#">Golden Gaming</a> </p>
+         </div>
+         <div class="col-lg-6 col-md-6 made-by">
+            <p> Hand-crafted & Made with  <i class="far fa-heart"></i> </p>
+         </div>
+      </div>
+   </div>
+   <!--===== End of Footer ====-->
+           </div>
+         </div>
+      </div>
+      <!-- jQuery CDN link -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <!-- fontawesome js -->
+      <script src="./../plugins/fontawesome/fontawesome.js"></script>
+      <!-- boostrap js -->
+      <script src="./../plugins/bootstrap/bootstrap.bundle.js"></script>
+      <!-- Charts CDN link -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.1.1/chart.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+      <!-- custome JS File -->
+      <script src="./../assets/js/app.js"></script>
+      <script src="./../assets/js/lightmode.js"></script>
+      <script src="./js/cards-page.js"></script>
+   </body>
+</html>

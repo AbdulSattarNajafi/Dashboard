@@ -1,0 +1,133 @@
+:root{
+  /* ----- color variables ----- */
+  --body-bg: #232D32;
+  --home-btn-bg: #232D32;
+  --popup-header-bg: #232D32;
+
+  --black: #171721;
+  --sidebar-bg: #171721;
+  --input-bg: #171721;
+
+  --light-dark: #1E222D;
+
+  --white: #ffffff;
+  --thead-text: #ffffff;
+  --white-to-blue: #ffffff;
+  --white-to-dark: #ffffff;
+  --white-to-gray: #ffffff;
+
+  --primary: #8BB8CA;
+  --thead-bg: #8BB8CA;
+  --top-menu-icons: #8BB8CA;
+  --primary-to-white: #8BB8CA;
+  --nav-icons-color: #8BB8CA;
+
+  --blue: #2186BF;
+  --primary-transparent: #8bb8ca3d;
+
+  --text-color: #D0D2D6;
+  --sidemenue-text: #D0D2D6;
+  --text-gray-100: #D0D2D6;
+  --light-textTo-dark: #D0D2D6;
+
+  --sidemenu-btn: #B9B9C3;
+  --lightGray-to-gray: #B9B9C3;
+
+  --dots-color: #BABFC7;
+  --orange-color: #FF9F43;
+  --success: #28C76F;
+  --success-color: #28C76F;
+
+  --red: #EA5455;
+  --danger: #EA5455;
+
+  --red-transparent: #ea545431;
+  --danger-transparent: #ea545431;
+
+  --success-transparent: #28c76f2a;
+  --green-transparent: #28c76f2a;
+  
+  --warning: #FFC600;
+  --yellow: #FFC600;
+
+  --yellow-transparent: #ffc80033;
+  --wraning-transparent: #ffc80033;
+
+  --nav-text: #B4B7BD;
+  --text-to-gray: #B4B7BD;
+  --text-to-dark: #B4B7BD;
+
+  --notification: #FF6B00;
+  --orange-transparent: #ff6a0031;
+  --gray:#9B9A9D;
+  --stroke-color:#3B4253;
+
+  --active-card: #2f3744;
+
+  --login-inputs: #252A35;
+  --login-inputs-border: #404656;
+
+  --table-header: #14475B;
+  --toggle-bg: #DEE2E6;
+  --modal-input-text: #676D7D;
+
+  --white-shadow: 0px 0px 1px 0px rgba(239,233,233,0.75);
+  --black-shadow: 0px 0px 10px -1px rgb(0, 0, 0, 0.6);
+  /* -----End of color variables----- */
+
+  --bg-img: './../images/aternative-bg.png';
+}
+
+.lightmode{
+  --body-bg: #F8F8FB;
+  --active-card: #F8F8FB;
+  --thead-bg: #F8F8FB;
+  --input-bg: #F8F8FB;
+
+  --text-color: #2186BF;
+  --notification: #2186BF;
+  --toggle-bg: #2186BF;
+  --sidebar-bg: #2186BF;
+  --primary: #2186BF;
+  --danger: #2186BF;
+  --white-to-blue: #2186BF;
+  --orange-color: #2186BF;
+  --success-color: #2186BF;
+  --warning: #2186BF;
+  --popup-header-bg: #2186BF;
+
+  --success-transparent: #8bb8ca3d;
+  --wraning-transparent: #8bb8ca3d;
+  --danger-transparent: #8bb8ca3d;
+  --orange-transparent: #8bb8ca3d;
+
+  --black: #ffffff;
+  --light-dark: #ffffff;
+  --sidemenue-text: #ffffff;
+  --home-btn-bg: #ffffff;
+  --primary-to-white: #ffffff;
+  --sidemenu-btn: #ffffff;
+  --dots-color: #ffffff;
+  --login-inputs: #ffffff;
+
+  --lightGray-to-gray: #9B9A9D;
+  --top-menu-icons: #9B9A9D;
+  --white-to-gray: #9B9A9D;
+  --text-to-gray: #9B9A9D;
+
+  --stroke-color:#ECECEC;
+  
+  --nav-text: #2e2f2d;
+  --thead-text: #2e2f2d;
+  --light-textTo-dark: #2e2f2d;
+  --text-to-dark: #2e2f2d;
+
+  --modal-input-text: #8B91A0;
+
+  --nav-icons-color: #1E353E;
+  --white-to-dark: #1E353E;
+  --text-gray-100: #1E353E;
+
+  --white-shadow: 0px 0px 18px -14px rgba(0,0,0,0.75);
+  --black-shadow: 0px 0px 10px -1px rgb(187, 186, 186);
+}

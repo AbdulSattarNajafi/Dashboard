@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--===== Bootstrap File =====-->
+   <link rel="stylesheet" href="./../plugins/bootstrap/bootstrap.min.css">
+   <!--===== FontAwesome File =====-->
+   <link rel="stylesheet" href="./../plugins/fontawesome/all.css">
+   <!--=====DataTables File=====-->
+   <link rel="stylesheet" href="./../plugins/datatables/css/jquery.dataTables.min.css">
+   <!-- <link rel="stylesheet" href="./plugins/datatables/css/dataTables.bootstrap.min.css"> -->
+   <!--=====Fonts File=====-->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+   <!--========= Custom CSS File ========-->
+   <link rel="stylesheet" href="./../assets/css/custom-styl.css">
+   <title>Golden Entertainment</title>
+</head>
+   <body>
+    <div class="overlay"></div>
+      <div class="container-fluid ContainerMain">
+         <div class="page-wrapper">
+           <!-- Overlay -->
+        
+   <!-- ====== Start of Sidebar ======= -->
+   <div class="SidebarWidth SideberRemove scrollbar"> 
+      <div class="sidebar">
+         <div class="brand">
+            <a href="./../index.html">
+               <img class="brand-logo" src="./../assets/images/BrandLogo.png" data-darklogo="./../assets/images/BrandLogo.png" data-lightlogo="./../assets/images/light-logo.png" alt="Logo">
+            </a>
+            <i class="fas fa-bars ToggleBtn"></i>
+            <img class="toggle-btn" src="./../assets/images/Toggle.svg" alt="Toggle icon">
+         </div>
+         <div class="sidebar_menu">
+            <div class="dashboard">
+               <i class="fal fa-home-lg-alt"></i>
+               <p>Dashboard</p>
+               <span> 2 </span>
+            </div>
+         </div>
+         <div class="accordionMain">
+            <div class="accordion" id="accordionExample">
+               <div class="accordion-item">
+                  <div
+                     id="collapseOne"
+                     class="accordion-collapse collapse show"
+                     aria-labelledby="headingOne">
+                     <div class="accordion-body">
+
+                        <a href="#" class="SubMenu setting-icon">
+                          <i class="far fa-cog"></i>
+                           <p>Settings</p>
+                        </a>
+                        
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- ======End of Sidebar======= -->
+            
+   <!-- ======= Start of top Navbar ===== -->
+   <div class="NavbarWidth">
+      <div class="navbarMain">
+         <nav class="navbar navbar-expand-lg navbar-light navbarBg">
+            <div class="container-fluid">
+
+               <!-- Light and Dark Mode toggle -->
+               <div class="toggle-container">
+                  <div id="darkmode-toggle">
+                    <span><img src="./../assets/images/light-mode-icon.svg" alt="icon"></span>
+                    <span class="circle"></span>
+                    <span class="moon-icon"><i class="far fa-moon"></i></span>
+                  </div>
+                </div>
+                <!-- End Light and Dark Mode toggle -->
+
+               <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                  >
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                     <li class="nav-item icons">
+                        <a class="nav-link" href="#"><i class="far fa-bell"></i><span class="avtarNotification bell-notification">4</span></a>
+                     </li>
+                     <li class="nav-item formated">
+                        <a
+                           class="nav-link active"
+                           aria-current="page"
+                           href="#"
+                           >
+                           <ul>
+                              <li> John Doe </li>
+                              <li> Admin </li>
+                           </ul>
+                           <img class="avtarWrap" src="./../assets/images/Avtar.jpg" alt="icon">
+                           <span class="online"></span>
+                        </a>
+                     </li>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </div>
+      <!-- ======= End of top Navbar ===== -->
+
+   <!-- ======= Start of main content ==== -->
+   <main>
+      <!-- Page title -->
+      <div class="page-title d-flex justify-content-between align-items center">
+        <ul class="title-list d-flex align-items-center">
+           <li class="border-right"><h4>Administration</h4></li>
+           <li><a href="./../index.html"><i class="fal fa-home-lg-alt"></i></a></li>
+           <li class="icon"><i class="fa fa-chevron-right"></i></li>
+           <li><a href="./treeview-editing.html">Site List</a></li>
+           <li class="icon"><i class="fa fa-chevron-right"></i></li>
+           <li><a href="./treeview-editing-detail.html">Editing (Site Name)</a></li>
+        </ul>
+     </div>
+      <!-- End Page title -->
+
+      <!-- Treeview Editing -->
+      <section id="treeview-editing" class="editing">
+         <div class="site-nav">
+             <select name="site-name" id="site-name">
+                <option value="Site Name 1">Site Name 1</option>
+                <option value="Site Name 2">Site Name 2</option>
+                <option value="Site Name 3">Site Name 3</option>
+                <option value="Site Name 4">Site Name 4</option>
+             </select>
+             <div class="links-list-title">
+                <p><span class="icon"><i class="fa fa-chevron-right"></i></span> Site</p>
+             </div>
+             <ul class="nav-links-list">
+                <li class="nav-links"><a href="#" class="links">
+                   <span class="icons"><i class="fa fa-chevron-right"></i></span> 
+                   Information
+                   </a></li>
+                <li class="nav-links"><a href="#" class="links">
+                   <span class="icons"><i class="fa fa-chevron-right"></i></span> 
+                   Contacts List
+                </a></li>
+                <li class="nav-links"><a href="#" class="links">
+                   <span class="icons"><i class="fa fa-chevron-right"></i></span> 
+                   Group Membership
+                </a></li>
+                <li class="nav-links"><a href="#" class="links active">
+                   <span class="icons"><i class="fa fa-chevron-right"></i></span> 
+                   Settings
+                </a></li>
+             </ul>
+         </div>
+         <div class="setting-wrapper">
+            <div class="setting-title">
+               <p><span class="icon"><i class="fal fa-user"></i></span> Settings &nbsp;</p>
+            </div>
+            <div class="settings">
+               <div class="settings-row">
+                  <button type="submit" onclick="treeeditingModal()">Time Zone</button>
+                  <button type="submit">
+                     <span>Value</span>
+                     <span><i class="far fa-chevron-down"></i></span> 
+                  </button>
+               </div>
+               <div class="settings-row">
+                  <button type="submit" onclick="treeeditingModal()">Game Day Start Time</button>
+                  <button type="submit">
+                     <span>Value</span>
+                     <span><i class="far fa-ellipsis-h"></i></span> 
+                  </button>
+               </div>
+               <div class="settings-row">
+                  <button type="submit" onclick="treeeditingModal()">Week Day Start</button>
+                  <button type="submit">
+                     <span>Value</span>
+                  </button>
+               </div>
+               <div class="settings-row">
+                  <button type="submit" onclick="treeeditingModal()">Is NCEP</button>
+                  <button type="submit">
+                     <span>Value</span>
+                  </button>
+               </div>
+               <div class="settings-row">
+                  <button type="submit" onclick="treeeditingModal()">Assignments</button>
+                  <button type="submit">
+                     <span>Value</span>
+                     <span><i class="far fa-ellipsis-h"></i></span> 
+                  </button>
+               </div>
+               <div class="btns-wrapper">
+                  <div class="text-container">
+                     <p><span><i class="fas fa-circle"></i></span> Changes have been made and need to be saved</p>
+                  </div>
+                  <div class="btns-container">
+                     <button type="button" class="cancel-btn blue-btn">Cancel</button>
+                     <button class="blue-btn" type="submit">Save</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+            
+       </section>
+       <!-- End Treeview Editing -->
+
+   </main>
+   <!-- ======= End of main content ==== -->
+
+   <!--===== Start of Footer ====-->
+   <div class="footer">
+      <div class="row">
+         <div class="col-lg-6 col-md-6">
+            <p> COPYRIGHT &#169; <span id="footer_year">2020</span> <a href="#">Golden Gaming</a> </p>
+         </div>
+         <div class="col-lg-6 col-md-6 made-by">
+            <p> Hand-crafted & Made with  <i class="far fa-heart"></i> </p>
+         </div>
+      </div>
+   </div>
+   <!--===== End of Footer ====-->
+           </div>
+         </div>
+      </div>
+      <div id="setting-overlay"></div>
+      <!-- Start Of Modal -->
+      <div id="settings-modal">
+         <div class="modal-container">
+            <div class="d-flex justify-content-end">
+               <button type="submit" class="close-modal" onclick="closeTreeeditingModal()"><i class="far fa-times"></i></button>
+            </div>
+            <div class="modal-tilte">
+               <h6>Assignments Setting</h6>
+               <p>Seclect the addiotnal property values and hit save</p>
+            </div>
+            <form action="#" class="assignment-setting-form">
+               <div class="form-row">
+                  <div class="form-item">
+                     <label for="drop-team">Drop Team</label>
+                     <select name="drop-team" id="drop-team">
+                        <option value="Sample Text">Sample Text</option>
+                        <option value="Sample Text">Sample Text</option>
+                        <option value="Sample Text">Sample Text</option>
+                        <option value="Sample Text">Sample Text</option>
+                     </select>
+                  </div>
+                  <div class="form-item">
+                     <label for="auditor">Auditor</label>
+                     <select name="auditor" id="auditor">
+                        <option value="Sample Text">Sample Text</option>
+                        <option value="Sample Text">Sample Text</option>
+                        <option value="Sample Text">Sample Text</option>
+                        <option value="Sample Text">Sample Text</option>
+                     </select>
+                  </div>
+               </div>
+               <div class="form-row">
+                  <div class="form-item">
+                     <label for="regional-manager">Regional Manager</label>
+                     <select name="regional-manager" id="regional-manager">
+                        <option value="Sample Text">Sample Text</option>
+                        <option value="Sample Text">Sample Text</option>
+                        <option value="Sample Text">Sample Text</option>
+                        <option value="Sample Text">Sample Text</option>
+                     </select>
+                  </div>
+               </div>
+               <div class="d-flex justify-content-end btns-container">
+                  <button type="button" class="cancel-btn blue-btn" onclick="closeTreeeditingModal()">Cancel</button>
+                  <button class="blue-btn" type="submit">Save</button>
+               </div>
+            </form>
+         </div>
+       </div>
+       <!-- End Of Modal -->
+
+      <!-- fontawesome js -->
+      <script src="./../plugins/fontawesome/fontawesome.js"></script>
+      <!-- boostrap js -->
+      <script src="./../plugins/bootstrap/bootstrap.bundle.js"></script>
+      <!-- custome JS File -->
+      <script src="./../assets/js/app.js"></script>
+      <script src="./../assets/js/lightmode.js"></script>
+   </body>
+</html>

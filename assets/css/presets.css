@@ -1,0 +1,126 @@
+.ContainerMain {
+  overflow-x: hidden;
+  padding: 0;
+}
+
+.ContainerMain .page-wrapper{
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 1280px;
+  margin: auto;
+}
+
+/* Custom scrollbar*/
+.scrollbar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 2px;
+}
+.scrollbar::-webkit-scrollbar-track {
+background: transparent; 
+}
+.scrollbar::-webkit-scrollbar-thumb {
+background: var(--primary);
+}
+
+.card{
+  border-radius: 0;
+}
+
+.card-header{
+  border: none;
+  background-color: transparent;
+  padding: 0.8rem;
+}
+
+.card-body{
+  padding: 0.8rem;
+}
+
+.card-footer{
+  border: none;
+  padding: .8rem;
+  background-color: transparent;
+}
+
+.game-name{
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.player-name{
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.sm-regular{
+  font-size: 11px;
+  color: var(--white);
+  margin-bottom: 1px;
+}
+
+.sm-semibold{
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.xs-semibold{
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--nav-text);
+  line-height: 15px;
+  letter-spacing: .8px;
+}
+
+.under-line{
+  width: 90%;
+  margin: 0 auto;
+  border-top: 1px solid var(--stroke-color);
+}
+
+.card-line{
+  border-top: 1px solid var(--stroke-color);
+}
+
+.success-text{
+  color: var(--success-color);
+}
+
+.warning-text{
+  color: var(--warning);
+}
+
+.primary-text{
+  color: var(--primary);
+}
+
+.nav-text{
+  color: var(--nav-text);
+}
+
+.trans-btn{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+/*Buttons*/
+.blue-btn{
+  outline: none;
+  border: none;
+  background-color: var(--primary);
+  border-radius: 6px;
+  font-size: 14px;
+  color: var(--white);
+  font-weight: 300;
+  padding: .54rem 1.6rem;
+}
